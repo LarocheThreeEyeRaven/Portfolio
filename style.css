@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    padding: 20px 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* logo */
+
+.logo{
+    font-size: 20px;
+    color: skyblue;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+
+
+/* nav bar */
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: skyblue;
+}
+
+/* section */
+
+.Home{
+   height: 100vh;
+   background: #031540;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 10%;
+   
+}
+
+.Home_image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    background: #031540;
+    
+}
+
+.Home_image img{
+    position: relative;
+    max-width: 380px;
+    bottom: 22px;
+}
+
+.home_content{
+    color: white;
+    max-width: 600px;
+    text-align: left;
+}
+
+.home_content h1{
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.home_content h3{
+      font-size: 40px;
+      color: skyblue;
+      background-clip: text;
+      background-position: -410px 0;
+ }
+      
+      
+.home_content p{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.social{
+    margin: 20px 0 40px;
+}
+
+
+.social a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: skyblue;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.social a:hover{
+    color: white;
+    background: skyblue;
+}
+
+.btn{
+    padding: 12px 35px;
+    background: skyblue;
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-size: 600;
+    letter-spacing: 1px;
+}
+
+
+   
+
